@@ -1,0 +1,50 @@
+/* ─── Home ──────────────────────────────────── */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.home__hero {
+  text-align: center;
+}
+
+.home__badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  background-color: rgba(99, 102, 241, 0.1);
+  margin-bottom: 20px;
+}
+
+.home__title {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+  margin: 0 0 16px;
+}
+
+.home__accent {
+  background: linear-gradient(135deg, var(--color-primary), #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home__subtitle {
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+  max-width: 480px;
+  margin-inline: auto;
+  line-height: 1.6;
+}
