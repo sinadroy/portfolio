@@ -6,6 +6,7 @@ import { Projects } from '../pages/Projects';
 import { Contact } from '../pages/Contact';
 import { NotFound } from '../pages/NotFound';
 import { ROUTES } from '../config/constants';
+import { Documentation } from '../pages/Documentation';
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
       { path: ROUTES.ABOUT, element: <About /> },
       { path: ROUTES.PROJECTS, element: <Projects /> },
       { path: ROUTES.CONTACT, element: <Contact /> },
+      { path: ROUTES.DOCUMENTATION, element: <Documentation /> },
       { path: '*', element: <NotFound /> },
     ],
   },
